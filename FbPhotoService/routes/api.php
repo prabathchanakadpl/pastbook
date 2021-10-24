@@ -20,4 +20,4 @@ use Illuminate\Support\Facades\Route;
 //});
 
 
-Route::apiResource('tasks', FbPhotoController::class);
+Route::apiResource('fb_photos', FbPhotoController::class);

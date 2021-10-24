@@ -29,6 +29,8 @@ class FbPhotoController extends Controller
      */
     public function store(Request $request)
     {
+
+
         $fb_photo = FbPhoto::updateOrCreate([
             //Add unique field combo to match here
             'user_id'   => $request->get('user_id'),

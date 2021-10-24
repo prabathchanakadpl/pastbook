@@ -24,4 +24,5 @@ class FbPhoto extends Model
         'picture',
         'user_id',
     ];
+
 }
